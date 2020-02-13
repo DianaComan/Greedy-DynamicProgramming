@@ -2,9 +2,9 @@
 Nume: Coman Diana Stefania
 Grupa: 323CA
 Tema: 1PA
-Greutate: Grea
+Dificultate: Grea
 ==================================================================
-Exercitiul 1: 
+Exercitiul 1: frati 
 La exercitiul 1 s-au sortat concursurile in urmatorul fel:
  - Descrescator dupa suma joc + bamda (nr de jocurilor si nr de benzi)
 intrucat s-a observat ca pentru a-l intrece pe celelalt, fiecare trebuie sa ia 
@@ -19,7 +19,7 @@ Complexitate: O(n)
 
 
 ==================================================================
-Exercitiul 4:
+Exercitiul 2: ursi
 S-a incercat sa se deterrmine toate posibilatile, astfel: primele 2 elemente luau 
 valorile maxime posibile, iar urmatoarele luau in mod descrescator valori mai mici 
 decat a 2a valoare.
@@ -28,7 +28,7 @@ Se verifica pt fiecare vector daca suma elementelor da n.
 Complexitate: Aranjamente de n luate cate k * k ^ 2
 
 ===================================================================
-Exercitiul 2:
+Exercitiul 3: numaratoare
 S-au pus cazurile de baza
  - cand avem un numar impar de ^, rezultatul e 0
  - cand avem doar ^, rezultatul e nr lor / 2 dublu factorial
