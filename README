@@ -1,0 +1,42 @@
+==================================================================
+Nume: Coman Diana Stefania
+Grupa: 323CA
+Tema: 1PA
+Greutate: Grea
+==================================================================
+Exercitiul 1: 
+La exercitiul 1 s-au sortat concursurile in urmatorul fel:
+ - Descrescator dupa suma joc + bamda (nr de jocurilor si nr de benzi)
+intrucat s-a observat ca pentru a-l intrece pe celelalt, fiecare trebuie sa ia 
+nu numai sau posibil, ci si maximul fratelui, deci cel mai in avantaj ar fi sa ua
+maximul total, maximul suma.
+ - Apoi in caz de egalitate, se sorteaza dupa jocuri descrescator, Jon ia prima 
+jumatate, Sam pe a doua. astfel incat ca fiecare sa aiba mai multe articole 
+preferate. Se tine cont ca in cazul unui numar impar de alegeri la egalitate, sa
+ia numarul din mijloc cel care ar fi urmat sa aleaga.
+
+Complexitate: O(n)
+
+
+==================================================================
+Exercitiul 4:
+S-a incercat sa se deterrmine toate posibilatile, astfel: primele 2 elemente luau 
+valorile maxime posibile, iar urmatoarele luau in mod descrescator valori mai mici 
+decat a 2a valoare.
+Se verifica pt fiecare vector daca suma elementelor da n.
+
+Complexitate: Aranjamente de n luate cate k * k ^ 2
+
+===================================================================
+Exercitiul 2:
+S-au pus cazurile de baza
+ - cand avem un numar impar de ^, rezultatul e 0
+ - cand avem doar ^, rezultatul e nr lor / 2 dublu factorial
+ - cand avem un singur _, se considera n, m nr de ^ in stanga si dreapta lui. 
+Rezultatul e n*m*((n+m-2/2))!! deoarece maximul pentru _ este n*m, iar apoi celelelate
+n+m - 2 de  ^ se vor lua ca in cazul 2
+ - cand avem 2 de _, se gasesc pozitiile lor, apot rezultatul este nr de ^ dintre pozitii,
+plus ce e pe lateral, rezulta ca rezultatul e nr de ^. 
+
+Complexitate: O(N) N-lungimea sirului
+
